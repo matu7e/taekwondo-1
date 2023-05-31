@@ -1,6 +1,11 @@
-html, body {
+/* Estilos generales */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-color: rgb(0, 0, 0);
 }
 
@@ -16,58 +21,44 @@ html, body {
     margin-left: 150px;
 }
 
-
 .menu-principal {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Añade este estilo para centrar verticalmente */
+    align-items: center;
 }
-.menu-principal h1{
+
+.menu-principal h1 {
     font-size: 50px;
     margin-right: 30px;
     color: yellow;
 }
+
 .contenedor-check {
     position: relative;
 }
 
 #check {
-    
     display: none;
 }
 
 .checkbtn {
     display: none;
-    
 }
 
-
-.boton-menu{
+.boton-menu {
     margin-right: 80px;
-    padding:  10px 20px;
+    padding: 10px 20px;
     border-radius: 15px;
     color: black;
     background-color: rgba(204, 204, 204, 0.626);
 }
-
-
-
-
-
-
-
-
-
 
 nav {
     text-align: center;
 }
 
 nav ul {
-
-    
-    
     padding: 15px;
     list-style: none;
     display: flex;
@@ -78,13 +69,59 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 10px;
+    position: relative;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-    
+}
 
+.actual {
+    color: yellow;
+}
+
+.dropdown .extra {
+    display: none;
+    position: absolute;
+    margin: 20px 30px;
+    left: 0;
+    padding: 10px;
+    z-index: 999;
+    min-width: 150px;
+}
+
+.dropdown:hover .extra {
+    display: block;
+}
+
+
+.extra li {
+    margin-bottom: 5px;
+}
+
+.extra li a {
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+
+    
+}
+
+.extra li a:hover {
+    color: yellow;
+    display: block;
+}
+
+
+
+
+/* Iconos */
+.fas {
+    font-family: 'Font Awesome 5 Free';
+}
+
+.fas.fa-chevron-down {
+    margin-left: 5px;
 }
