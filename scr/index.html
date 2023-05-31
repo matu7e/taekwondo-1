@@ -11,32 +11,30 @@
 </head>
 <body>
     <header class="contenedor-menu">
-
         <div class="contenedor-check">
-
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
-                <i class="fa-sharp fa-solid fa-bars"></i>
+                <i class="fas fa-bars"></i>
             </label>
-
         </div>
-        
-        
         <div class="menu-principal">
-            
-
-            
-
             <img class="imagen-menu" src="img/logo.png" alt="logo">
             <h1>TAEKWONDO ITF</h1>
-            <button class="boton-menu">Iniciar Secion</button>
+            <button class="boton-menu">Iniciar Sesión</button>
         </div>
         <nav>
             <ul>
-                <li><a href="">INICIO</a></li>
-                <li><a href="">CONOCENOS</a></li>
-                <li><a href="">TAEKWONDO</a></li>
-                <li><a href="">UNION MEDITERRANEA</a></li>
+                <li><a class="actual" href="">INICIO</a></li>
+                <li><a href="">CONÓCENOS</a></li>
+                <li class="dropdown">
+                    <a href="">TAEKWONDO <i class="fas fa-chevron-down"></i></a>
+                    <ul class="extra">
+                        <li><a href="">Historia</a></li>
+                        <li><a href="">Teórico General</a></li>
+                        <li><a href="">Graduaciones</a></li>
+                    </ul>
+                </li>
+                <li><a href="">UNIÓN MEDITERRÁNEA</a></li>
                 <li><a href="">ALUMNO</a></li>
             </ul>
         </nav>
