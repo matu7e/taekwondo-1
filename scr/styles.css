@@ -166,3 +166,109 @@ nav ul li a {
         
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px){
+
+    .checkbtn{
+        float: left;
+        color: white;
+        display: block;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    
+    
+
+    .menu-principal h1 {
+        display: none;
+    }
+
+
+
+
+    .imagen-menu {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+        margin-bottom: 50px;
+
+        
+    }
+
+    
+    .menu-principal{
+        display: block;
+
+        margin: auto;
+        width: 105px;
+        margin-top: 50px;
+    }
+
+
+    .boton-menu {
+        margin: 0;
+    }
+    a {
+        font-size: 10px;
+    }
+
+
+    nav ul{
+        display: block;
+        margin-top: 40px;
+    }
+    
+
+    
+    .dropdown, .dropdown-union{
+        margin: 10px;
+    }
+
+   
+    .dropdown:hover .extra {
+        display: none;
+        
+    }
+    .dropdown-union:hover .extra {
+        display: none;
+        
+    }
+    .dropdown:hover{
+        padding: 0;
+        padding-bottom: 0;
+        background-color: rgba(33, 32, 32, 0);
+    }
+    
+    .dropdown-union:hover{
+        padding: 0;
+        padding-bottom: 0;
+        background-color: rgba(33, 32, 32, 0);
+    }
+    nav{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: blueviolet;
+        top: 81px;
+        left: -100%;
+        transition: all .5s;
+          
+    }
+    #check:checked ~ nav{
+        left: 0;
+    }
+}
+
+
