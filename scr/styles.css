@@ -16,38 +16,31 @@ body {
     height: 250px;
     margin: auto;
 }
-
 .imagen-menu {
     width: 100px;
     height: 100px;
     margin-left: 150px;
 }
-
 .menu-principal {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .menu-principal h1 {
     font-size: 50px;
     margin-right: 30px;
     color: yellow;
 }
-
 .contenedor-check {
     position: relative;
 }
-
 #check {
     display: none;
 }
-
 .checkbtn {
     display: none;
 }
-
 .boton-menu {
     margin-right: 80px;
     padding: 10px 20px;
@@ -55,11 +48,9 @@ body {
     color: rgb(255, 255, 255);
     background-color: rgba(204, 204, 204, 0.139);
 }
-
 nav {
     text-align: center;
 }
-
 nav ul {
     padding: 15px;
     list-style: none;
@@ -69,20 +60,16 @@ nav ul {
     margin-top: 50px;
     justify-content: space-between;
 }
-
 nav ul li {
     position: relative;
 }
-
 nav ul li a {
     text-decoration: none;
     color: white;
 }
-
 .actual {
     color: yellow;
 }
-
 .dropdown .extra {
     display: none;
     position: absolute;
@@ -103,7 +90,6 @@ nav ul li a {
     z-index: 999;
     min-width: 150px;
 }
-
 .dropdown:hover{
     padding: 10px;
     padding-bottom: 20px;
@@ -122,13 +108,10 @@ nav ul li a {
     display: block;
     background-color: rgba(33, 32, 32, 0.237);;
 }
-
-
 .extra li {
     margin-bottom: 5px;
     list-style: none;
 }
-
 .extra li a {
     color: white;
     display: block;
@@ -137,7 +120,6 @@ nav ul li a {
 
     
 }
-
 .extra li a:hover {
     color: yellow;
     display: block;
@@ -145,10 +127,86 @@ nav ul li a {
 /*---------------- FIN DEL MENU -------------------------*/
 
 
+/*------------------------ FOOTER ----------------------------*/
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    margin-top: 100px;
+   
+  }
+  
+  footer a {
+    color: white;
+    margin: 20px;
+  }
+  
+  footer a:hover {
+    font-size: 30px;
+  }
+  .left{
+    margin-left: 100px ;
+  }
+  .right{
+    margin-right: 100px ;
+  }
+  .center {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+  }
+  footer div a{
+    font-size: 20px;
+    
+  }
+
+/*------------------- FIN DEL FOOTER ---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1200px){
 
     /*---------------- MENU -------------------------*/
-
     .menu-principal h1 {
         font-size: 35px;
         margin: 0;
@@ -168,6 +226,11 @@ nav ul li a {
         
     }
     /*---------------- FIN DEL MENU -------------------------*/
+    /*----------------- FOOTER -----------------------------*/
+    footer div p{
+        font-size: 10px;
+    }
+    /*----------------- FIN DEL FOOTER -----------------------------*/
 }
 
 @media (max-width: 750px){
@@ -180,16 +243,9 @@ nav ul li a {
         font-size: 20px;
         margin-left: 30px;
     }
-    
-    
-
     .menu-principal h1 {
         display: none;
     }
-
-
-
-
     .imagen-menu {
         width: 100px;
         height: 100px;
@@ -198,8 +254,6 @@ nav ul li a {
 
         
     }
-
-    
     .menu-principal{
         display: block;
 
@@ -207,28 +261,19 @@ nav ul li a {
         width: 105px;
         margin-top: 50px;
     }
-
-
     .boton-menu {
         margin: 0;
     }
     a {
         font-size: 10px;
     }
-
-
     nav ul{
         display: block;
         margin-top: 40px;
     }
-    
-
-    
     .dropdown, .dropdown-union{
         margin: 10px;
     }
-
-   
     .dropdown:hover .extra {
         display: none;
         
@@ -242,7 +287,6 @@ nav ul li a {
         padding-bottom: 0;
         background-color: rgba(33, 32, 32, 0);
     }
-    
     .dropdown-union:hover{
         padding: 0;
         padding-bottom: 0;
@@ -263,13 +307,11 @@ nav ul li a {
         transition: all .5s;
         margin-top: 80px;
         left: -100%;
-        background-color: rgba(0, 0, 0, 0.406);
-      }
-      
+        background-color: rgb(0, 0, 0);
+    }
     #check:checked ~ .contenedor-menu {
         left: 0;
     }
-
     .Visible {
         display: block;
         color: yellow;
