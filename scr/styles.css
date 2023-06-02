@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +9,8 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+
+/*---------------- MENU -------------------------*/
 .contenedor-menu {
     width: 100%;
     height: 250px;
@@ -50,8 +52,8 @@ body {
     margin-right: 80px;
     padding: 10px 20px;
     border-radius: 15px;
-    color: black;
-    background-color: rgba(204, 204, 204, 0.865);
+    color: rgb(255, 255, 255);
+    background-color: rgba(204, 204, 204, 0.139);
 }
 
 nav {
@@ -140,9 +142,12 @@ nav ul li a {
     color: yellow;
     display: block;
 }
+/*---------------- FIN DEL MENU -------------------------*/
 
 
 @media (max-width: 1200px){
+
+    /*---------------- MENU -------------------------*/
 
     .menu-principal h1 {
         font-size: 35px;
@@ -156,31 +161,18 @@ nav ul li a {
     .boton-menu {
         margin-right: 100px;
         padding: 5px 10px;
-        border-radius: 15px;
-        color: black;
-        background-color: rgba(204, 204, 204, 0.865);
     }
     a {
         font-size: 10px;
     
         
     }
+    /*---------------- FIN DEL MENU -------------------------*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 750px){
 
+    /*---------------- MENU -------------------------*/
     .checkbtn{
         float: left;
         color: white;
@@ -256,19 +248,36 @@ nav ul li a {
         padding-bottom: 0;
         background-color: rgba(33, 32, 32, 0);
     }
-    nav{
+    .checkbtn{
+        margin-top: 25px;
+        display: block;
+    }
+    .checkbtn:hover{
+        color: rgb(255, 255, 255);
+    }
+    .contenedor-menu {
         position: fixed;
         width: 100%;
         height: 100%;
-        background-color: blueviolet;
-        top: 81px;
-        left: -100%;
+        text-align: center;
         transition: all .5s;
-          
-    }
-    #check:checked ~ nav{
+        margin-top: 80px;
+        left: -100%;
+        background-color: rgba(0, 0, 0, 0.406);
+      }
+      
+    #check:checked ~ .contenedor-menu {
         left: 0;
     }
+
+    .Visible {
+        display: block;
+        color: yellow;
+        margin-top: 30px;
+        text-align: center;
+      }
+    /*---------------- FIN DEL MENU -------------------------*/
+    
 }
 
 
