@@ -1,9 +1,5 @@
 <main>
-        <section class="seccion-principal">
-            <img src="img/logo.png" alt="logo">
-            <p> El taekwondo ITF es una forma de arte marcial centrada en la práctica de técnicas de patada, puñetazo y bloqueo, así como en la realización de formas, sparring y técnicas de autodefensa. Sus principales fortalezas incluyen la promoción de valores como la disciplina, la perseverancia, el respeto y la autoconfianza, así como el énfasis en la meditación y la filosofía detrás de las técnicas. Además de los beneficios físicos, el taekwondo ITF también puede mejorar la salud mental y emocional de los estudiantes, reducir el estrés y la ansiedad, y mejorar las relaciones con los demás.</p>
-            <img src="img/logo-union-mediterranea.png" alt="logo">
-        </section>
+        
 
 
 
