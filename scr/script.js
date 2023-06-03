@@ -12,3 +12,7 @@ checkBtn.addEventListener('click', function() {
   // Aplicar la propiedad 'left' correspondiente
   contenedorMenu.style.left = menuVisible ? '-100%' : '0';
 });
+
+document.getElementById("whatsapp-btn").onclick = function() {
+  window.location.href = "https://wa.me/3512343686?text=Hola,%20quiero%20info%20sobre%20las%20clases%20de%20taekwondo";
+};

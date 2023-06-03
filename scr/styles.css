@@ -8,7 +8,9 @@
 body {
     background-color: rgb(0, 0, 0);
 }
-
+main{
+    margin-top: 100px;
+}
 
 /*---------------- MENU -------------------------*/
 .contenedor-menu {
@@ -166,9 +168,7 @@ footer {
   }
 
 /*------------------- FIN DEL FOOTER ---------------------------*/
-main{
-    margin: 0;
-}
+
 /*------------------- seccion-principal ---------------------------*/
 
 .seccion-principal{
@@ -200,12 +200,121 @@ main{
 
 
 
+/*------------------- seccion-contenedor ---------------------------*/
+.article-1{
+    
+    
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
+    justify-content: center;
+    gap: 10px;
+}
+.img_descripcion{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.conteiner{
+    margin: 30px;
+}
+.text_instructor{
+    text-align:center;
+    align-items:center;
+    font-size: 40px;
+    color: white;
+}
+.instructor{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 0px;
+    text-align: center;
+    align-items: center;
+    
+}
+.instructor img{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#whatsapp-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.742) inset;
+    transition: box-shadow 0.3s ease-in-out;
+    
+    
+}  
+#whatsapp-btn:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+    box-shadow: 0 0 0 2px white inset;
+    padding: 15px 70px;
+    font-size: 20px;
+} 
+.conteiner_wpp{
+    text-align: center;
+}
+.texto-2{
+    margin: 100px;
+}
+/*------------------- fin seccion-instr ---------------------------*/
 
 
 
+/*----------  puño ---------------------*/
 
+.container-puño {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    overflow: hidden;
+  }
 
+  .hand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/puño.png');
+    background-size: cover;
+    transition: transform 0.3s ease;
+  }
 
+  .text-container-puño {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .text-puño {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #fff;
+  }
+  /*---------- fin del puño ---------------------*/
 
 
 
@@ -269,10 +378,30 @@ main{
     footer div p{
         font-size: 10px;
     }
+
     /*----------------- FIN DEL FOOTER -----------------------------*/
+    /*----------------- cotenedor 2 -----------------------------*/
+    .instructor img{
+        width: 200px;
+        height: 200px;
+        
+    }
+    .instructor_p{
+        color: white;
+        font-size: 12px;
+        margin: auto;
+        margin-bottom: 100px;
+        width: 600px;
+        text-align: center;
+    
+        
+    }
+    /*----------------- FIN del cotenedor 2 -----------------------------*/
+
 }
 
-@media (max-width: 750px){
+
+@media (max-width: 950px){
 
     /*---------------- MENU -------------------------*/
     .checkbtn{
@@ -381,7 +510,8 @@ main{
     /*------------- seccion-principal -----------------------*/
     .seccion-principal{
         grid-template-columns: repeat(1, 1fr);
-        margin: 100px;
+        margin: 0 100px;
+        gap: 30px;
         
     }
     
@@ -394,10 +524,22 @@ main{
     }
 
     /*---------- fin seccion-principal ---------------------*/
-}
 
+    /*---------- puño ---------------------*/
+    .hand {
+        
+        width: 50%;
+        height: 50%;
+        margin-left: 80px;
+      }
+    /*---------- fin del puño ---------------------*/
+}   
 
-@media (max-width: 490px){
+  
+
+@media (max-width: 600px){
+
+    /*----------------- FOOTER -----------------------------*/
     footer div p{
         font-size: 5px;
         
@@ -405,4 +547,33 @@ main{
     footer div a{
         font-size: 15px;
       }
+    /*----------------- FIN DEL FOOTER -----------------------------*/
+    
+     /*------------- seccion-principal -----------------------*/
+    .seccion-principal{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 50px;
+        
+    }
+    .text{
+        font-size: 12px;
+    }
+
+    /*---------- fin seccion-principal ---------------------*/
+    /*---------- seccion instructor ---------------------*/
+    .text_instructor{
+       
+    }
+    .instructor{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .instructor img{
+        
+        display: none;
+        
+        
+        
+    }
+    /*---------- seccion instructor ---------------------*/
+
 }
