@@ -15,18 +15,20 @@
 
 </head>
 <body>
-    
-    <div class="contenedor-check">
-        <div class="contenedor-h1">
-            <h1 class="Visible">TAEKWONDO ITF</h1>
+    <div class="contenedor-fixed">
+        <div class="contenedor-check">
+            <div class="contenedor-h1">
+                <h1 class="Visible">TAEKWONDO ITF</h1>
+            </div>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            
         </div>
-        
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        
     </div>
+    
     <header class="contenedor-menu">
         
         <div class="contenedor_menu_principal">
@@ -92,8 +94,11 @@
                 </p>
             </div>
             
+            
             <div class="contenedor-logo-union">
-                <img class="seccion-principal-logo-union" src="img/logo-union-mediterranea.png" alt="logo">
+                <a href="Docs/union-mediterranea.html">
+                    <img class="seccion-principal-logo-union" src="img/logo-union-mediterranea.png" alt="logo">
+                </a>
             </div>
         </section>
         
@@ -127,16 +132,26 @@
 
 
 
-        <div class="container-puño" onclick="splitHand()">
-            <div id="puño" class="hand"></div>
-            <div class="text-container-puño">
-              <span class="text-puño">Te esperamos</span>
+        
+
+
+
+
+          <div class="logo-completo">
+            <div class="cont">
+                <div class="logo">
+                    <div class="amarillo"></div>
+                    <div class="verde"></div>
+                    <div class="azul"></div>
+                    <div class="rojo"></div>
+                </div>
+                <div class="negro"></div>
             </div>
-          </div>
-
-
-
-
+        </div>
+        <div class="contenedor-te-esperamos">
+            <h3 class="te-esperamos">Te esperamos!!</h3>
+        </div>
+            
     </main>
 
 
@@ -192,6 +207,6 @@
       </footer>
     
     <script src="script.js"></script>
-    <script src="puño.js"></script>
+    <script src="js/puño.js"></script>
 </body>
 </html>
