@@ -339,9 +339,10 @@ footer {
 } 
 .conteiner_wpp{
     text-align: center;
+    margin-bottom: -60px;
 }
 .texto-2{
-    margin: 100px;
+    margin: 40px;
 }
 /*------------------- fin seccion-instr ---------------------------*/
 
