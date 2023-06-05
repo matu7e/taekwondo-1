@@ -266,7 +266,10 @@ footer {
     color: white;
     text-align: center;
 }
-
+.contenedor-logo-union{
+    border: 1px solid white;
+    border-radius: 50%;
+}
 .contenedor-parrafo-principal{
     margin: auto;
 }
@@ -349,11 +352,6 @@ footer {
 
 
 /*----------  puño ---------------------*/
-
-
-  
-
-
 .logo-completo{
     width: 300px;
     height: auto;
@@ -431,6 +429,7 @@ footer {
     transform: rotate(380deg);
     transition: transform 0.7s ease;
 }
+
 
 /*---------- fin del puño ---------------------*/
 
