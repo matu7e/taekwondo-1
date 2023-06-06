@@ -134,7 +134,7 @@ nav ul li a {
 
 /*---------------- sedes -------------------------*/
 .sedes{
-    padding: 80px;
+    padding: 0 80px;
 }
 .sede{
     
@@ -176,6 +176,9 @@ nav ul li a {
 .sede-imagen1{
     display: none;
 }
+.ultima_sede{
+    margin-bottom: 0;
+}
 
 
 
@@ -193,7 +196,7 @@ nav ul li a {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.742) inset;
     transition: box-shadow 0.3s ease-in-out;
     
@@ -203,13 +206,41 @@ nav ul li a {
     cursor: pointer;
     background-color: darkgreen;
     box-shadow: 0 0 0 2px white inset;
-    padding: 15px 70px;
-    font-size: 20px;
+   
 } 
+.container-gmail {
+    text-align: center;
+  }
+
+  .gmail-btn {
+    background-color: #dc4e41;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 150px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.742) inset;
+    transition: box-shadow 0.3s ease-in-out;
+    
+  }
+a{
+    text-decoration: none;
+}
+.gmail-btn:hover{
+    cursor: pointer;
+    background-color: #dc4e4189;
+    box-shadow: 0 0 0 2px white inset;
+}
 
 .titulo-contacto{
     color: white;
     margin: 30px;
+}
+h2{
+    color: white;
+    font-size: 15px;
+    margin: 30px 50px;
 }
 /*---------------- FIN de contacto -------------------------*/
 /*---------------- gallery-section -------------------------*/
