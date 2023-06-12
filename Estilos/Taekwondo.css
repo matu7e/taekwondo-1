@@ -129,6 +129,282 @@ nav ul li a {
 }
 /*---------------- FIN DEL MENU -------------------------*/
 
+/*---------------- teorico general -------------------------*/
+
+#teorico-general{ 
+    background-color: rgba(255, 255, 255, 0.8);
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin: 100px 150px;
+    padding: 50px;
+}
+
+
+.cont-titulo{
+    text-align: center;
+}
+.titulo-seccion-teorico-general{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+.subtitulo-seccion-teorico-general{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.cont-puntos ul{
+    margin-left: 50px;
+}
+.cont-puntos-logo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+}
+.cont-puntos{
+    margin: auto;
+}
+.cont-logo-teorico{
+
+    text-align: center;
+}
+.logo-teorico{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.cont-enlase-material-de-estudio{
+    text-align: center;
+    margin-top: 40px
+
+}
+.enlase-material-de-estudio{
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #0800ff;
+    
+    box-shadow: 0px 0px 10px rgb(10, 94, 239) inset; 
+    
+    
+}
+
+
+
+.enlase-material-de-estudio:hover {
+  background-color: #000000b5;
+  color: yellow;
+}
+
+.enlase-material-de-estudio:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(51, 122, 183, 0.5);
+}
+
+
+
+/*---------------- fin teorico general -------------------------*/
+/*---------------- graduaciones -------------------------*/
+
+#graduaciones{ 
+    background-color: rgba(255, 255, 255, 0.8);
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin: 100px 150px;
+    padding: 50px;
+}
+.primera h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+.primera p{
+    margin: 20px;
+}
+
+.segunda{
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.segunda h3{
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+
+.tercera{
+    
+    margin: 30px 20px;
+}
+
+/*---------------- cintos -------------------------*/
+
+.button{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    color: rgb(0, 0, 0);
+}
+.cont{
+    color: rgb(255, 255, 255);
+    height: auto;
+    padding: 40px;
+    margin: 50px 150px;
+    margin-top: 0;    
+    display: none; 
+    border: 1px solid #ddd;
+    border-top: 0px;
+
+}   
+
+
+
+.enlase{
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: auto;
+    color: #ffffff;
+    border: 1px solid #ddd;
+    
+}
+
+
+
+
+
+
+
+
+
+.contenedor-descripcion-blanco.mostrar {
+    display: block; 
+}
+.enlase-blanco, .contenedor-descripcion-blanco{
+    box-shadow: 0px 0px 10px rgba(255, 253, 253, 0.5) inset;
+}
+.button-blanco{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.contenedor-descripcion-amarillo.mostrar {
+    display: block; 
+}
+.enlase-amarillo, .contenedor-descripcion-amarillo{
+    box-shadow: 0px 0px 10px rgba(212, 255, 0, 0.5) inset;
+}
+.button-amarillo{
+    background-color: rgb(212, 255, 0);
+}
+
+
+
+.contenedor-descripcion-verde.mostrar {
+    display: block; 
+}
+.enlase-verde, .contenedor-descripcion-verde{
+    box-shadow: 0px 0px 10px rgba(43, 255, 0, 0.5) inset;
+}
+.button-verde{
+    background-color: green;
+}
+
+
+
+.contenedor-descripcion-azul.mostrar {
+    display: block; 
+}
+.enlase-azul, .contenedor-descripcion-azul{
+    box-shadow: 0px 0px 10px rgba(0, 4, 255, 0.5) inset;
+}
+.button-azul{
+    background-color: rgb(0, 0, 128);
+}
+
+
+
+.contenedor-descripcion-rojo.mostrar {
+    display: block; 
+}
+.enlase-rojo, .contenedor-descripcion-rojo{
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5) inset;
+}
+.button-rojo{
+    background-color: rgb(128, 0, 0);
+}
+
+
+
+
+.contenedor-descripcion-negro.mostrar {
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.enlase-negro, .contenedor-descripcion-negro{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0) inset;
+    color: #000000;
+    
+}
+.button-negro{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.parrafo2{
+    color: #000000;
+    padding: 10px 80px 0 0;
+}
+
+
+
+.contenedor-enlase{
+    display: flex;
+}
+.contenedor-texto-logo{
+
+    display: flex;
+
+}
+.contenedor-img{
+    padding: 15px;
+}
+.contenedor-texto-logo img{
+
+    width: 100px;
+    height: auto;
+    margin-right: 30px;
+    object-fit: cover;
+
+}
+.parrafo{
+    padding: 10px 80px 0 0;
+    color: #ffffff;
+}
+.negrita{
+    font-size: xx-large;
+}
+/*---------------- fin cinto -------------------------*/
+
+
+
+/*---------------- FIN graduaciones -------------------------*/
 
 /*------------------------ FOOTER ----------------------------*/
 
@@ -300,6 +576,16 @@ main{
     
         
     }
+
+
+
+    .logo-teorico{
+        width: 150px;
+        height: 150px;
+    }
+    .cont-puntos{
+        font-size: 10px;
+    }
     /*---------------- FIN DEL MENU -------------------------*/
     
     /*------------- seccion-principal -----------------------*/
@@ -418,13 +704,23 @@ main{
         margin-bottom: 60px;
     }
 
-   
+    
     /*---------------- FIN DEL MENU -------------------------*/
 
 
     /*------------- seccion-principal -----------------------*/
     
-
+    .cont-puntos-logo{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .cont-puntos{
+        font-size: 15px;
+    }
+    #teorico-general{
+        margin: 50px;
+        padding: 10px;
+    }
     /*---------- fin seccion-principal ---------------------*/
 }
 
