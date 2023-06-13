@@ -133,6 +133,17 @@ nav ul li a {
 /*---------------- FIN DEL MENU -------------------------*/
 
 /*---------------- sedes -------------------------*/
+.cont-h1{
+    width: 100%;
+    height: auto;
+}
+
+.cont-h1 h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin: 50px;
+}
 .sedes{
     padding: 0 80px;
     margin-top: 100px;
@@ -475,7 +486,11 @@ main{
     /*---------------- FIN DEL MENU -------------------------*/
     
     /*------------- seccion-principal -----------------------*/
-  
+    .cont-h1 h1{
+        
+        font-size: 35px;
+        
+    }
 
     /*---------- fin seccion-principal ---------------------*/
     
