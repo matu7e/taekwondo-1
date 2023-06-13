@@ -137,7 +137,7 @@ nav ul li a {
     height: auto;
     margin: auto;
     margin: 100px 150px;
-    padding: 50px;
+    padding: 20px;
 }
 
 
@@ -177,7 +177,8 @@ nav ul li a {
 }
 .cont-enlase-material-de-estudio{
     text-align: center;
-    margin-top: 40px
+    margin-top: 40px;
+    margin-bottom: 30px;
 
 }
 .enlase-material-de-estudio{
@@ -218,7 +219,7 @@ nav ul li a {
     height: auto;
     margin: auto;
     margin: 100px 150px;
-    padding: 50px;
+    padding: 20px;
 }
 .primera h2{
     text-align: center;
@@ -256,7 +257,7 @@ nav ul li a {
     justify-content: center;
     width: 100%;
     height: 60px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .cont{
     color: rgb(255, 255, 255);
@@ -277,6 +278,7 @@ nav ul li a {
     border-radius: 20px;
     text-decoration: none;
     margin-top: 20px;
+    margin-bottom: 30px;
     margin-left: auto;
     color: #ffffff;
     border: 1px solid #ddd;
@@ -299,6 +301,7 @@ nav ul li a {
 }
 .button-blanco{
     background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 
@@ -311,6 +314,7 @@ nav ul li a {
 }
 .button-amarillo{
     background-color: rgb(212, 255, 0);
+    color: black;
 }
 
 
@@ -384,6 +388,8 @@ nav ul li a {
 }
 .contenedor-img{
     padding: 15px;
+    display: flex;
+    align-items: center;
 }
 .contenedor-texto-logo img{
 
@@ -394,7 +400,7 @@ nav ul li a {
 
 }
 .parrafo{
-    padding: 10px 80px 0 0;
+    padding: 25px 80px 0 0;
     color: #ffffff;
 }
 .negrita{
@@ -571,21 +577,11 @@ main{
         margin-right: 100px;
         padding: 5px 10px;
     }
-    a {
-        font-size: 10px;
-    
-        
-    }
-
-
-
     .logo-teorico{
         width: 150px;
         height: 150px;
     }
-    .cont-puntos{
-        font-size: 10px;
-    }
+    
     /*---------------- FIN DEL MENU -------------------------*/
     
     /*------------- seccion-principal -----------------------*/
@@ -603,7 +599,7 @@ main{
 }
 
 @media (max-width: 950px){
-
+    
     /*---------------- MENU -------------------------*/
     .checkbtn{
         float: left;
@@ -633,9 +629,7 @@ main{
     .boton-menu {
         margin: 0;
     }
-    a {
-        font-size: 10px;
-    }
+    
     nav ul{
         display: block;
         margin-top: 40px;
@@ -683,11 +677,10 @@ main{
         left: -100%;
         background-color: rgb(0, 0, 0);
     }
-    .contenedor-check{
-        
-    }
+    
     #check:checked ~ .contenedor-menu {
         left: 0;
+        
     }
     .Visible {
         display: block;
@@ -714,13 +707,22 @@ main{
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
-    .cont-puntos{
-        font-size: 15px;
-    }
-    #teorico-general{
+    
+    #teorico-general, #graduaciones{
         margin: 50px;
         padding: 10px;
+        margin-top: 61px;
     }
+
+    .cont{
+        
+        padding: 30px;
+        margin: 50px 50px;
+        margin-top: 0;
+       
+    }   
+   
+   
     /*---------- fin seccion-principal ---------------------*/
 }
 
@@ -739,6 +741,54 @@ main{
       }
     .right{
         float: right;
+    }
+    .primera h2, .titulo-seccion-teorico-general{
+        
+        font-size: 30px;
+    }
+    .subtitulo-seccion-teorico-general {
+        
+        font-size: 20px;
+    }
+    #teorico-general, #graduaciones{
+        margin: 25px;
+        padding: 10px;
+        margin-top: 61px;
+    }
+    .cont{
+        
+        padding: 30px;
+        margin: 50px 25px;
+        margin-top: 0;
+       
+    }   
+    .contenedor-texto-logo {
+        display: block;
+        margin: auto;
+    }
+    .contenedor-img {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    .contenedor-texto-logo img {
+    
+        margin-right: 0px;
+        
+    }
+    .parrafo {
+        padding: 0;
+        
+    }
+    .parrafo2 {
+        
+        padding: 0;
+    }
+    .enlase{
+        padding: 15px 40px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 60px;        
     }
     /*----------------- FIN DEL FOOTER -----------------------------*/
 }
