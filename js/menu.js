@@ -29,3 +29,19 @@ check.addEventListener("change", function() {
     body.style.overflow = "auto";
   }
 });
+
+
+
+
+
+
+
+
+
+window.onload = function() {
+  var historiaSection = document.getElementById("historia");
+  var ramasSection = document.getElementById("ramas");
+
+  historiaSection.classList.add("fade-in");
+  ramasSection.classList.add("fade-in");
+};

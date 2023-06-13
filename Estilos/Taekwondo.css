@@ -129,6 +129,78 @@ nav ul li a {
 }
 /*---------------- FIN DEL MENU -------------------------*/
 
+#historia {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px 15px;
+    text-align: center;
+    margin-top: 100px;
+    
+    position: relative; /* Añadimos posición relativa para que el z-index funcione correctamente */
+    z-index: -999999999; 
+    
+  }
+
+  .fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px) scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  
+  #ramas {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px 15px;
+    margin: 150px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    position: relative; /* Añadimos posición relativa para que el z-index funcione correctamente */
+    z-index: -9999999; 
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 24px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
 /*---------------- teorico general -------------------------*/
 
 #teorico-general{ 
@@ -297,7 +369,7 @@ nav ul li a {
     display: block; 
 }
 .enlase-blanco, .contenedor-descripcion-blanco{
-    box-shadow: 0px 0px 10px rgba(255, 253, 253, 0.5) inset;
+    box-shadow: 0px 0px 10px rgb(255, 253, 253) inset;
 }
 .button-blanco{
     background-color: rgb(255, 255, 255);
@@ -310,7 +382,7 @@ nav ul li a {
     display: block; 
 }
 .enlase-amarillo, .contenedor-descripcion-amarillo{
-    box-shadow: 0px 0px 10px rgba(212, 255, 0, 0.5) inset;
+    box-shadow: 0px 0px 10px rgb(212, 255, 0) inset;
 }
 .button-amarillo{
     background-color: rgb(224, 255, 67);
@@ -323,7 +395,7 @@ nav ul li a {
     display: block; 
 }
 .enlase-verde, .contenedor-descripcion-verde{
-    box-shadow: 0px 0px 10px rgba(43, 255, 0, 0.5) inset;
+    box-shadow: 0px 0px 10px rgb(43, 255, 0) inset;
 }
 .button-verde{
     background-color: green;
@@ -335,7 +407,7 @@ nav ul li a {
     display: block; 
 }
 .enlase-azul, .contenedor-descripcion-azul{
-    box-shadow: 0px 0px 10px rgba(0, 4, 255, 0.5) inset;
+    box-shadow: 0px 0px 10px rgb(0, 4, 255) inset;
 }
 .button-azul{
     background-color: rgb(0, 0, 128);
@@ -347,7 +419,7 @@ nav ul li a {
     display: block; 
 }
 .enlase-rojo, .contenedor-descripcion-rojo{
-    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5) inset;
+    box-shadow: 0px 0px 10px rgb(255, 0, 0) inset;
 }
 .button-rojo{
     background-color: rgb(128, 0, 0);
@@ -699,7 +771,11 @@ main{
 
     
     /*---------------- FIN DEL MENU -------------------------*/
-
+    #ramas {
+        
+        margin: 50px;
+       
+      }
 
     /*------------- seccion-principal -----------------------*/
     
@@ -728,6 +804,11 @@ main{
 
 
 @media (max-width: 600px){
+    #ramas {
+        
+        margin: 25px;
+       
+    }
     /*----------------- FOOTER -----------------------------*/
     footer{
         grid-template-columns: repeat(1, 1fr);
@@ -790,5 +871,6 @@ main{
         margin-top: 20px;
         margin-bottom: 60px;        
     }
+
     /*----------------- FIN DEL FOOTER -----------------------------*/
 }
