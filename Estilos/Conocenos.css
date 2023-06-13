@@ -487,10 +487,11 @@ main{
     
     /*------------- seccion-principal -----------------------*/
     .cont-h1 h1{
-        
+        margin-top: 0px;
         font-size: 35px;
         
     }
+
 
     /*---------- fin seccion-principal ---------------------*/
     
@@ -608,8 +609,10 @@ main{
 
 
     /*------------- seccion-principal -----------------------*/
+    
     .sedes{
         padding: 20px;
+        margin-top: 0px
     }
     .sede{
         padding: 10px;
