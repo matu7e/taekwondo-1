@@ -479,7 +479,7 @@ main{
         padding: 5px 10px;
     }
     a {
-        font-size: 10px;
+        font-size: 13px;
     
         
     }
@@ -535,9 +535,7 @@ main{
     .boton-menu {
         margin: 0;
     }
-    a {
-        font-size: 10px;
-    }
+
     nav ul{
         display: block;
         margin-top: 40px;
