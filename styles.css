@@ -13,6 +13,11 @@ main{
 }
 
 /*---------------- MENU -------------------------*/
+
+.Visible {
+    display: none;
+  }
+
 .contenedor-menu {
     width: 100%;
     height: 250px;
@@ -589,7 +594,9 @@ footer {
         transition: all .5s;
         
         left: -100%;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0, 0.7);
+        
+        backdrop-filter: blur(15px);
     }
     
     #check:checked ~ .contenedor-menu {
