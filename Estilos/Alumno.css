@@ -104,20 +104,20 @@ nav ul li a {
 .dropdown:hover{
     padding: 10px;
     padding-bottom: 20px;
-    background-color: rgba(33, 32, 32, 0.237);
+    background-color: rgba(33, 32, 32, 0.7);
 }
 .dropdown:hover .extra {
     display: block;
-    background-color: rgba(33, 32, 32, 0.237);;
+    background-color: rgba(33, 32, 32, 0.7);;
 }
 .dropdown-union:hover{
     padding: 10px;
     padding-bottom: 20px;
-    background-color: rgba(33, 32, 32, 0.237);
+    background-color: rgba(33, 32, 32, 0.7);
 }
 .dropdown-union:hover .extra {
     display: block;
-    background-color: rgba(33, 32, 32, 0.237);;
+    background-color: rgba(33, 32, 32, 0.7);;
 }
 .extra li {
     margin-bottom: 5px;
