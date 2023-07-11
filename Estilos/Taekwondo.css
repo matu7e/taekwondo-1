@@ -260,31 +260,30 @@ nav ul li a {
 
 }
 .enlase-material-de-estudio{
-    padding: 15px 30px;
-    text-decoration: none;
-    font-weight: bold;
+    
+    
+    
     cursor: pointer;
-    border-radius: 20px;
-    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f6fe0098;
     color: #000000;
-    border: 1px solid #0800ff;
-    
-    box-shadow: 0px 0px 10px rgb(10, 94, 239) inset; 
-    
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+   
     
 }
+
+ 
 
 
 
 .enlase-material-de-estudio:hover {
-  background-color: #000000b5;
-  color: yellow;
+    background-color: #000000f1;
+    color: #f6fe0098;
 }
 
-.enlase-material-de-estudio:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(51, 122, 183, 0.5);
-}
 
 
 
