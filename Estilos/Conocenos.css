@@ -13,7 +13,6 @@ body {
 }
 main{
     margin: auto;
-    padding-top: 30px;
     text-align: center;
     justify-content: center;
 }
@@ -145,15 +144,23 @@ nav ul li a {
     height: auto;
 }
 
-.cont-h1 h1{
+
+.titulo{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 20px;
     color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 35px;
     margin: 50px;
-}
+  }
 .sedes{
     padding: 0 80px;
-    margin-top: 100px;
+    margin-top: 120px;
+}
+.nombre-sede{
+    border-bottom: 1px solid white;
+    padding: 10px;
 }
 .sede{
     
@@ -161,7 +168,7 @@ nav ul li a {
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: 1px solid white;
+    background-color: #00000096;
 }
 .sede-imagen img{
     width: 350px;
@@ -255,7 +262,7 @@ a{
     color: white;
     margin: 30px;
 }
-h2{
+.mensaje{
     color: white;
     font-size: 15px;
     margin: 30px 50px;

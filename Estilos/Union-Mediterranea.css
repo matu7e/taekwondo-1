@@ -13,6 +13,8 @@ body{
     background-size: cover;
 }
 main{
+    
+    padding: 0 80px;
     padding-top: 30px;
 }
 
@@ -146,14 +148,15 @@ h1{
 .def{
     color: white;
     margin: 0 100px ;
-    padding: 50px;
-    padding-bottom: 0px;
+    padding: 0 50px;
+    
     text-align: center;
 }
 .contenedor-img-partes{
     display: grid;
     grid-template-columns: repeat(2, auto);
-    margin: 100px;
+    background-color: #000000b8;
+    padding: 60px;
     margin-top: 50px;
     gap: 20px;
 }
@@ -176,7 +179,7 @@ h1{
 }
 .partes p{
     color: white;
-    padding: 20px;
+    padding: 20px 0px;
     
 }
 .partes ul li p span{
@@ -196,12 +199,22 @@ h1{
 
   .sedes{
     text-align: center;
+   
   }
   .sede{
     margin: 30px;
   }
   .sede h2, h3, h4{
     color: white;
+  }
+  .titulo{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 50px;
   }
 /*------------------------ FOOTER ----------------------------*/
 
@@ -520,7 +533,7 @@ main{
     .contenedor-img-partes{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 100px;
+        
         margin-top: 50px;
         
     }
