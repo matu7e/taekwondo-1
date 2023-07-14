@@ -184,6 +184,25 @@ h1{
     font-weight: bold;
    
 }
+
+
+.linea {
+    border: none;
+    height: 1px; /* Altura de la línea */
+    background-color: #ffffff; /* Color de la línea */
+    max-width: 80%;
+    margin: 50px auto;
+  }
+
+  .sedes{
+    text-align: center;
+  }
+  .sede{
+    margin: 30px;
+  }
+  .sede h2, h3, h4{
+    color: white;
+  }
 /*------------------------ FOOTER ----------------------------*/
 
 
@@ -507,8 +526,7 @@ main{
     }
   
   
-  
-
+    
 
     /*---------- fin seccion-principal ---------------------*/
 }
