@@ -15,7 +15,7 @@ body{
 main{
     
     padding: 0 80px;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 /*---------------- MENU -------------------------*/
@@ -28,7 +28,7 @@ main{
     width: 100%;
     height: 250px;
     margin: auto;
-    margin-bottom: 100px;
+   
 }
 .imagen-menu {
     width: 100px;
@@ -215,6 +215,45 @@ h1{
     text-align: center;
     font-size: 35px;
     margin: 50px;
+  }
+
+  .cont-img-miembros{
+    display: flex;
+    
+  }
+
+  .contenedor-miembros{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 30px;
+    padding: 30px;
+    gap: 50px;
+
+  }
+  .img-miembros{
+    width: 400px;
+    height: auto;
+    background-size: cover;
+    border-radius: 50px;
+    margin: auto;
+
+  }
+  .desc-miembros{
+    text-align: center;
+    margin: auto;
+    
+  }
+  .cont-nom-miembro{
+    margin: 50px 0px;
+
+  }
+  .nombre-miembros{
+    
+    font-size: 20px;
+  }
+  .cont-nom-miembro span{
+    font-size: 18px;
+    color: white;
   }
 /*------------------------ FOOTER ----------------------------*/
 
@@ -433,9 +472,7 @@ main{
     .boton-menu {
         margin: 0;
     }
-    a {
-        font-size: 10px;
-    }
+    
     nav ul{
         display: block;
         margin-top: 40px;
@@ -529,19 +566,66 @@ main{
     .def{
         margin: 0 70px ;
         padding: 30px;
+        font-size: 13px;
     }
     .contenedor-img-partes{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        
+        margin-bottom: 50px;
         margin-top: 50px;
         
     }
   
   
     
-
+    .contenedor-miembros{
+        
+        margin: 15px;
+        padding: 15px;
+        gap: 40px;
+    
+      }
+      .img-miembros{
+        width: 300px;
+        height: auto;
+        
+    
+      }
+      
+      .cont-nom-miembro{
+        margin: 25px 0px;
+    
+      }
+      
+      .nombre-miembros{
+        
+        font-size: 15px;
+      }
+      .cont-nom-miembro span{
+        font-size: 10px;
+       
+      }
     /*---------- fin seccion-principal ---------------------*/
+}
+@media (max-width: 700px){
+    .img-logo{
+        width: 200px;
+        height: 200px;
+    }
+    .titulo{
+        font-size: 25px;
+        margin: 0;
+    }
+    main {
+        padding: 0 25px;
+        padding-top: 30px;
+    }
+    .partes p{
+        font-size: 13px;       
+    }
+    .partes p span{
+        font-size: 15px;       
+    }
 }
 
 @media (max-width: 600px){
@@ -573,7 +657,6 @@ main{
     .contenedor-img-partes{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 50px;
         margin-top: 30px;
         
     }
@@ -584,19 +667,41 @@ main{
         align-items: center;
     }
     
-    .img-logo{
+  
+    .contenedor-miembros{
+        display: block;     
+    
+      }
+      .img-miembros{
         width: 300px;
-        height: 300px;
-        margin: 10px;
+        height: auto;
+        background-size: cover;
+        border-radius: 50px;
+    
+      }
+      .desc-miembros{
+        text-align: center;
+        margin: auto;
         
-    }
-    .partes p{
+      }
+      .cont-nom-miembro{
+        margin: 50px 0px;
+    
+      }
+      .nombre-miembros{
+        
+        font-size: 20px;
+      }
+      .cont-nom-miembro span{
+        font-size: 18px;
+        color: white;
+      }
+    .miembros{
+        margin: 0;
         padding: 10px;
-        
+        padding-top: 30px;
     }
-    .partes ul li p span{
-        font-size: 15px;       
-    }
+    
 
 
     /*---------- fin seccion-principal ---------------------*/
