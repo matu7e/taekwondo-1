@@ -142,6 +142,7 @@ nav ul li a {
 .cont-h1{
     width: 100%;
     height: auto;
+    padding-top: 40px;
 }
 
 
@@ -153,10 +154,10 @@ nav ul li a {
     text-align: center;
     font-size: 35px;
     margin: 50px;
+    margin-bottom: 0;
   }
 .sedes{
     padding: 0 80px;
-    margin-top: 120px;
 }
 .nombre-sede{
     border-bottom: 1px solid white;
@@ -165,7 +166,7 @@ nav ul li a {
 .sede{
     
     padding: 50px 10px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #00000096;
@@ -269,6 +270,9 @@ a{
 }
 /*---------------- FIN de contacto -------------------------*/
 /*---------------- gallery-section -------------------------*/
+.contenedor-titulo-galeria{
+    padding: 40px 0;
+  }
 .gallery-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -513,7 +517,9 @@ main{
 }
 
 @media (max-width: 950px){
-    
+    .titulo{
+        margin: 0;
+    }
     /*---------------- MENU -------------------------*/
     .checkbtn{
         float: left;
@@ -620,7 +626,8 @@ main{
     
     .sedes{
         padding: 20px;
-        margin-top: 0px
+        margin-top: 0px;
+        padding-top: 40px;
     }
     .sede{
         padding: 10px;
@@ -666,6 +673,7 @@ main{
 @media (max-width: 700px){
     .titulo{
         font-size: 25px;
+        
     }
 }
 

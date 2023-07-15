@@ -12,7 +12,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-
+main{
+    padding: 0 20px;
+}
 
 
 
@@ -49,6 +51,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
     
    
 }
@@ -95,10 +98,7 @@ body {
 
 
 
-main{
-    margin-top: 100px;
-    padding-top: 30px;
-}
+
 
 
 /*---------------- MENU -------------------------*/
@@ -116,6 +116,7 @@ main{
     width: 100px;
     height: 100px;
     margin-left: 150px;
+    cursor: pointer;
 }
 .menu-principal {
     margin-top: 30px;
@@ -340,16 +341,35 @@ footer {
 /*------------------- FIN DEL FOOTER ---------------------------*/
 
 /*------------------- seccion-principal ---------------------------*/
+.cont-h1{
+    width: 100%;
+    height: auto;
+}
+.titulo{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 0 50px;
+    
+  }
 
 .seccion-principal{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    background-color: #00000096;
+    padding: 50px;
+    margin: 0 100px;
+    
     
 }
 .seccion-principal-logo, .seccion-principal-logo-union {
     width: 200px;
     height: 200px;
+    cursor: pointer;
     
 }
 .seccion-principal-logo-union{
@@ -389,14 +409,18 @@ footer {
     cursor: pointer;
 }
 
-.conteiner{
-    margin: 30px;
+
+._instructor{
+    text-align:center;
+    color: white;    
+    font-size: 35px;
 }
 .text_instructor{
-    text-align:center;
+    margin: 0 5px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     align-items:center;
-    font-size: 40px;
-    color: white;
+    padding: 20px;
 }
 .instructor{
     height: auto;
@@ -413,6 +437,12 @@ footer {
     height: 400px;
     margin: auto;
     cursor: pointer;
+}
+
+.contenedor-desc-wpp{
+    background-color: #00000096;
+    margin: 0 100px;
+    padding: 50px;
 }
 
 #whatsapp-btn {
@@ -451,6 +481,7 @@ footer {
     width: 300px;
     height: auto;
     margin: auto;
+    cursor: pointer;
 
 }
 .cont{
@@ -632,6 +663,7 @@ footer {
         height: 100px;
         margin: 0;
         margin-bottom: 50px;
+        cursor: pointer;
 
         
     }
@@ -782,8 +814,11 @@ footer {
      /*------------- seccion-principal -----------------------*/
     .seccion-principal{
         grid-template-columns: repeat(1, 1fr);
-        margin: 50px;
+        margin: 0;
         
+    }
+    .titulo{
+        margin: 0;
     }
     .text{
         font-size: 12px;
@@ -801,8 +836,10 @@ footer {
         
         display: none;
         
-        
-        
+                
+    }
+    .contenedor-desc-wpp{
+        margin: 0;
     }
     /*---------- seccion instructor ---------------------*/
 
