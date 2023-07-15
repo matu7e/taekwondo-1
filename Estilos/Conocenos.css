@@ -105,20 +105,20 @@ nav ul li a {
 .dropdown:hover{
     padding: 10px;
     padding-bottom: 20px;
-    background-color: rgba(33, 32, 32, 0.237);
+    background-color: #00000096;
 }
 .dropdown:hover .extra {
     display: block;
-    background-color: rgba(33, 32, 32, 0.237);;
+    background-color: #00000096;
 }
 .dropdown-union:hover{
     padding: 10px;
     padding-bottom: 20px;
-    background-color: rgba(33, 32, 32, 0.237);
+    background-color: #00000096;
 }
 .dropdown-union:hover .extra {
     display: block;
-    background-color: rgba(33, 32, 32, 0.237);;
+    background-color: #00000096;
 }
 .extra li {
     margin-bottom: 5px;

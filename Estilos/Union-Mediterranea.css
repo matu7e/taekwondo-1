@@ -107,20 +107,20 @@ nav ul li a {
 .dropdown:hover{
     padding: 10px;
     padding-bottom: 20px;
-    background-color: rgba(33, 32, 32, 0.237);
+    background-color: #00000096;
 }
 .dropdown:hover .extra {
     display: block;
-    background-color: rgba(33, 32, 32, 0.237);;
+    background-color: #00000096;
 }
 .dropdown-union:hover{
     padding: 10px;
     padding-bottom: 20px;
-    background-color: rgba(33, 32, 32, 0.237);
+    background-color: #00000096;
 }
 .dropdown-union:hover .extra {
     display: block;
-    background-color: rgba(33, 32, 32, 0.237);;
+    background-color: #00000096;
 }
 .extra li {
     margin-bottom: 5px;
@@ -155,7 +155,7 @@ h1{
 .contenedor-img-partes{
     display: grid;
     grid-template-columns: repeat(2, auto);
-    background-color: #000000b8;
+    background-color: #00000096;
     padding: 60px;
     margin-top: 50px;
     gap: 20px;
