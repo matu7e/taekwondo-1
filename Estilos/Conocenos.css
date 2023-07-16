@@ -142,7 +142,8 @@ nav ul li a {
 .cont-h1{
     width: 100%;
     height: auto;
-    padding-top: 40px;
+    padding: 0 20px;
+    padding-top: 65px;
 }
 
 
@@ -271,7 +272,7 @@ a{
 /*---------------- FIN de contacto -------------------------*/
 /*---------------- gallery-section -------------------------*/
 .contenedor-titulo-galeria{
-    padding: 40px 0;
+    padding: 40px 20px;
   }
 .gallery-section {
     max-width: 1200px;
@@ -480,7 +481,9 @@ main{
 
 
 @media (max-width: 1200px){
-
+    .cont-h1 {
+        padding-top: 0px;
+    }
     /*---------------- MENU -------------------------*/
     .menu-principal h1 {
         font-size: 35px;
@@ -519,6 +522,9 @@ main{
 @media (max-width: 950px){
     .titulo{
         margin: 0;
+    }
+    .cont-h1 {
+        padding-top: 40px;
     }
     /*---------------- MENU -------------------------*/
     .checkbtn{

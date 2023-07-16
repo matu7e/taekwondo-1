@@ -13,9 +13,7 @@ body{
     background-size: cover;
 }
 main{
-    
-    padding: 0 80px;
-    padding-top: 80px;
+    padding: 0 20px;
 }
 
 /*---------------- MENU -------------------------*/
@@ -139,6 +137,11 @@ nav ul li a {
     display: block;
 }
 /*---------------- FIN DEL MENU -------------------------*/
+.union{
+    
+    padding-top: 120px;
+
+}
 h1{
     color: white;
     text-align: center;
@@ -199,12 +202,14 @@ h1{
 
   .sedes{
     text-align: center;
+    background-color: #00000096;
+    padding: 20px
    
   }
   .sede{
     margin: 30px;
   }
-  .sede h2, h3, h4{
+  .sede h3, h4{
     color: white;
   }
   .titulo{
@@ -214,7 +219,11 @@ h1{
     color: white;
     text-align: center;
     font-size: 35px;
-    margin: 50px;
+    margin:  0 50px;
+    margin-bottom: 40px;
+  }
+  .titulo-2{
+    margin-top: 40px;
   }
 
   .cont-img-miembros{
@@ -369,8 +378,9 @@ main{
     margin: 0;
 }
 /*------------------- seccion-principal ---------------------------*/
-
-
+.escuela{
+    color: yellow;
+}
 /*------------------- fin seccion-principal ---------------------------*/
 
 
@@ -405,7 +415,11 @@ main{
 
 
 @media (max-width: 1200px){
-
+    .union{
+    
+        padding-top: 50px;
+    
+    }
     /*---------------- MENU -------------------------*/
     .menu-principal h1 {
         font-size: 35px;
