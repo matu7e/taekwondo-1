@@ -32,3 +32,8 @@ check.addEventListener("change", function() {
   }
 });
 
+const loginButton = document.getElementById('loginButton');
+
+loginButton.addEventListener('click', () => {
+  window.location.href = '/Docs/login.html';
+});

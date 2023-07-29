@@ -59,6 +59,7 @@ main{
     border-radius: 15px;
     color: rgb(255, 255, 255);
     background-color: rgba(204, 204, 204, 0.139);
+    cursor: pointer;
 }
 nav {
     text-align: center;
@@ -203,7 +204,8 @@ h1{
   .sedes{
     text-align: center;
     background-color: #00000096;
-    padding: 20px
+    padding: 20px;
+    margin-bottom: 40px;
    
   }
   .sede{
@@ -275,6 +277,7 @@ footer {
     align-items: center;
     background-color: black;
     padding: 20px;
+    margin-top: 50px;
    
    
   }

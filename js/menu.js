@@ -45,3 +45,9 @@ window.onload = function() {
   historiaSection.classList.add("fade-in");
   ramasSection.classList.add("fade-in");
 };
+
+const loginButton = document.getElementById('loginButton');
+
+loginButton.addEventListener('click', () => {
+  window.location.href = 'login.html';
+});

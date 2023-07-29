@@ -59,6 +59,7 @@ main{
     border-radius: 15px;
     color: rgb(255, 255, 255);
     background-color: rgba(204, 204, 204, 0.139);
+    cursor: pointer;
 }
 nav {
     text-align: center;

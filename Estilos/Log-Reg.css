@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../img/restriccion.jpg");
+    background-size: cover;
+  }
+  
+  .container {
+    width: 400px;
+    background-color: #000000a4;
+    border-radius: 5px;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+  }
+  
+  
+  
+  
+  
+  h2 {
+    text-align: center;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+  }
+  /* Estilo para el desplegable personalizado */
+  .custom-dropdown {
+    position: relative;
+    color: #ffffff; /* Color del texto de las opciones */
+    border: 1px solid #ccc; /* Puedes ajustar los estilos del borde según tus preferencias */
+    border-radius: 5px; 
+    margin: 0 0 10px 0;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .selected-option {
+    display: block;
+    padding: 8px;
+    color: white;
+  }
+  
+  .dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #000000db; /* Puedes ajustar el color de fondo según tus preferencias */
+    border: 1px solid #ccc; /* Puedes ajustar los estilos del borde según tus preferencias */
+    border-radius: 5px; /* Puedes ajustar el radio del borde según tus preferencias */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    backdrop-filter: blur(15px);
+  }
+  
+  .custom-dropdown:hover .dropdown-options {
+    display: block;
+  }
+  
+  .dropdown-options li {
+    padding: 5px;
+    color: #ffffff; /* Puedes ajustar el color del texto de las opciones */
+  }
+  
+  .dropdown-options li:hover {
+    background-color: #f6fe00; /* Puedes ajustar el color de fondo al pasar el ratón por encima de una opción */
+    color: #000; /* Puedes ajustar el color del texto al pasar el ratón por encima de una opción */
+  }
+  
+  
+  
+  
+  button {
+    
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f6fe00;
+    color: #000000;
+  }
+  
+  button:hover {
+    background-color: #000000e5;
+    color: #f6fe00;
+  }
+  
+  a {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #f6fe00;
+  }
+  
+  
+  

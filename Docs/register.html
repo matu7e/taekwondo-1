@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="../Estilos/Log-Reg.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Registro</h2>
+    <form id="registerForm">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" autocomplete="off" required>
+  
+      <label for="surname">Apellido:</label>
+      <input type="text" id="surname" autocomplete="off" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@(hotmail|gmail|yahoo)\.(com|es)" autocomplete="off" required>
+  
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" autocomplete="off" required>
+  
+
+      <label for="branch">Sucursal:</label>
+      <div class="custom-dropdown" id="branchDropdown">
+        <span class="selected-option" id="selectedBranch">Seleccionar una sucursal</span>
+        <ul class="dropdown-options">
+          <li>Sucursal 1</li>
+          <li>Sucursal 2</li>
+          <li>Sucursal 3</li>
+          <li>Sucursal 4</li>
+          <li>Sucursal 5</li>
+        </ul>
+      </div>
+      
+      
+
+      <label for="id">Número de ID:</label>
+      <input type="text" id="id" required>
+
+      <button type="submit">Registrarse</button>
+      <a href="login.html" id="loginLink">Inicia sesión aquí</a>
+    </form>
+  </div>
+
+  <script src="../js/Log-Reg.js"></script>
+  <script src="../js/Reg-Sucursales.js"></script>
+</body>
+</html>
