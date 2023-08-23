@@ -89,19 +89,19 @@ nav ul li a {
     margin-left: 30px;
     margin-top: 20px;
     left: 0;
-    padding: 10px;
+    padding: 7px;
     z-index: 999;
-    min-width: 150px;
+    min-width: 175px;
 }
 .dropdown-union .extra {
     display: none;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 85px;
     margin-top: 20px;
     left: 0;
-    padding: 10px;
+    padding: 7px;
     z-index: 999;
-    min-width: 150px;
+    min-width: 175px;
 }
 .dropdown:hover{
     padding: 10px;
@@ -147,6 +147,31 @@ nav ul li a {
     padding-top: 65px;
 }
 
+.ir-img-sede{
+
+    display: flex;
+    
+    
+    
+}
+.ir{
+    margin: auto;
+    font-size: 50px;
+    color: #000000;
+}
+.cont-ir{
+    width: 350px;
+    height: 350px;;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+    display: flex;
+    margin: 0 0 0 -350px;
+    z-index: -99;
+    background-color: rgba(255, 255, 255, 0.566);
+}
+
+
 
 .titulo{
     border-top: 1px solid white;
@@ -180,10 +205,18 @@ nav ul li a {
     object-fit: cover;
 }
 .sede-imagen:hover img{
-    
+    transition: 0.5s ;
     border-radius: 50%;
     
 }
+
+.sede-imagen:hover .cont-ir{
+    transition: 0s 0.5s;
+    z-index: 99;
+    
+}
+
+
 .sede-info p{
     color: white;
 }
@@ -343,7 +376,7 @@ footer {
     align-items: center;
     background-color: black;
     padding: 20px;
-   
+    
    
   }
   
@@ -368,16 +401,17 @@ footer {
     font-size: 20px;
     
   }
+
   .icon {
 	display: inline-flex;
 	width: 30px;
-	height: 30px;
+    height: 30px;
 	text-decoration: none;
-	font-size: 26px;
+	font-size: 22px;
 	border-radius: 50%;
-	
 	transition-property: outline-offset, outline-color, background-color;
 	transition-duration: 0.25s;
+    font-size: 22px;
 }
 .icon:hover {
 	outline-offset: 4px;
@@ -390,7 +424,7 @@ footer {
 }
 
 .icon--tiktok{
-    font-size: 22px;
+    
 
 }
 
@@ -440,8 +474,8 @@ footer {
 		transform: rotate(-15deg);
 	}
 }
-
 /*------------------- FIN DEL FOOTER ---------------------------*/
+
 main{
     margin: 0;
 }
@@ -586,7 +620,7 @@ main{
         
         display: block;
         position: absolute;
-        top: 10px; /* Ajusta la posición vertical según tus necesidades */
+        top: 2px; /* Ajusta la posición vertical según tus necesidades */
         right: 30px; /* Ajusta la posición horizontal según tus necesidades */
         z-index: 9999; /* Asegura que el icono esté por encima de otros elementos */
       
@@ -658,6 +692,7 @@ main{
     }
     .sede-imagen:hover img{
         width: 100%;
+        border-radius: 0;
         height: 300px;
     }
 

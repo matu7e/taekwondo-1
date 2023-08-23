@@ -88,19 +88,19 @@ nav ul li a {
     margin-left: 30px;
     margin-top: 20px;
     left: 0;
-    padding: 10px;
+    padding: 7px;
     z-index: 999;
-    min-width: 150px;
+    min-width: 175px;
 }
 .dropdown-union .extra {
     display: none;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 85px;
     margin-top: 20px;
     left: 0;
-    padding: 10px;
+    padding: 7px;
     z-index: 999;
-    min-width: 150px;
+    min-width: 175px;
 }
 .dropdown:hover{
     padding: 10px;
@@ -208,13 +208,13 @@ footer {
   .icon {
 	display: inline-flex;
 	width: 30px;
-	height: 30px;
+    height: 30px;
 	text-decoration: none;
-	font-size: 26px;
+	font-size: 22px;
 	border-radius: 50%;
-	
 	transition-property: outline-offset, outline-color, background-color;
 	transition-duration: 0.25s;
+    font-size: 22px;
 }
 .icon:hover {
 	outline-offset: 4px;
@@ -227,7 +227,7 @@ footer {
 }
 
 .icon--tiktok{
-    font-size: 22px;
+    
 
 }
 
@@ -278,6 +278,7 @@ footer {
 	}
 }
 /*------------------- FIN DEL FOOTER ---------------------------*/
+
 main{
     margin: 0;
 }
@@ -416,7 +417,7 @@ main{
         
         display: block;
         position: absolute;
-        top: 10px; /* Ajusta la posición vertical según tus necesidades */
+        top: 2px; /* Ajusta la posición vertical según tus necesidades */
         right: 30px; /* Ajusta la posición horizontal según tus necesidades */
         z-index: 9999; /* Asegura que el icono esté por encima de otros elementos */
       

@@ -174,19 +174,19 @@ nav ul li a {
     margin-left: 30px;
     margin-top: 20px;
     left: 0;
-    padding: 10px;
+    padding: 7px;
     z-index: 999;
-    min-width: 150px;
+    min-width: 175px;
 }
 .dropdown-union .extra {
     display: none;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 85px;
     margin-top: 20px;
     left: 0;
-    padding: 10px;
+    padding: 7px;
     z-index: 999;
-    min-width: 150px;
+    min-width: 175px;
 }
 .dropdown:hover{
     padding: 10px;
@@ -225,121 +225,6 @@ nav ul li a {
 /*---------------- FIN DEL MENU -------------------------*/
 
 
-/*------------------------ FOOTER ----------------------------*/
-
-
-footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    padding: 20px;
-    
-   
-  }
-  
-  footer a {
-    color: white;
-    margin: 20px;
-  }
-  
- 
-  .left{
-    margin: auto;
-  }
-  .right{
-    margin: auto;
-  }
-  .center {
-    flex-grow: 1;
-    text-align: center;
-    color: white;
-  }
-  footer div a{
-    font-size: 20px;
-    
-  }
-
-  .icon {
-	display: inline-flex;
-	width: 30px;
-	height: 30px;
-	text-decoration: none;
-	font-size: 26px;
-	border-radius: 50%;
-	
-	transition-property: outline-offset, outline-color, background-color;
-	transition-duration: 0.25s;
-}
-.icon:hover {
-	outline-offset: 4px;
-}
-.icon i {
-	margin: auto;
-}
-.icon:hover i {
-	animation: shake 0.25s;
-}
-
-.icon--tiktok{
-    font-size: 22px;
-
-}
-
-
-.icon--instagram:hover {
-	background-image: radial-gradient(
-		circle at 30% 107%,
-		#fdf497 0%,
-		#fdf497 5%,
-		#fd5949 45%,
-		#d6249f 60%,
-		#285aeb 90%
-	);
-	outline-color: #a02d76;
-}
-.icon--facebook:hover {
-	background-color: #166494;
-	outline-color: #166494;
-}
-
-.icon--tiktok:hover {
-    background-image: radial-gradient(
-      circle at 30% 107%,
-      #69c9d0 0%,
-      #69c9d0 5%,
-      #ee1d52 45%,
-      #663399 60%,
-      #000000 90%
-    );
-    outline-color: #000000;
-  }
-.icon--wpp:hover {
-	background-color: #2ea44f;
-	outline-color: #2ea44f;
-}
-@keyframes shake {
-	10% {
-		transform: rotate(15deg);
-	}
-	20% {
-		transform: rotate(-15deg);
-	}
-	30% {
-		transform: rotate(15deg);
-	}
-	40% {
-		transform: rotate(-15deg);
-	}
-}
-.fa-brands{
-    width: 26,2px;
-    height: 26px;
-}
-
-/*------------------- FIN DEL FOOTER ---------------------------*/
 
 /*------------------- seccion-principal ---------------------------*/
 .cont-h1{
@@ -565,6 +450,116 @@ footer {
 
 
 
+/*------------------------ FOOTER ----------------------------*/
+
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    
+   
+  }
+  
+  footer a {
+    color: white;
+    margin: 20px;
+  }
+  
+ 
+  .left{
+    margin: auto;
+  }
+  .right{
+    margin: auto;
+  }
+  .center {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+  }
+  footer div a{
+    font-size: 20px;
+    
+  }
+
+  .icon {
+	display: inline-flex;
+	width: 30px;
+    height: 30px;
+	text-decoration: none;
+	font-size: 22px;
+	border-radius: 50%;
+	transition-property: outline-offset, outline-color, background-color;
+	transition-duration: 0.25s;
+    font-size: 22px;
+}
+.icon:hover {
+	outline-offset: 4px;
+}
+.icon i {
+	margin: auto;
+}
+.icon:hover i {
+	animation: shake 0.25s;
+}
+
+.icon--tiktok{
+    
+
+}
+
+
+.icon--instagram:hover {
+	background-image: radial-gradient(
+		circle at 30% 107%,
+		#fdf497 0%,
+		#fdf497 5%,
+		#fd5949 45%,
+		#d6249f 60%,
+		#285aeb 90%
+	);
+	outline-color: #a02d76;
+}
+.icon--facebook:hover {
+	background-color: #166494;
+	outline-color: #166494;
+}
+
+.icon--tiktok:hover {
+    background-image: radial-gradient(
+      circle at 30% 107%,
+      #69c9d0 0%,
+      #69c9d0 5%,
+      #ee1d52 45%,
+      #663399 60%,
+      #000000 90%
+    );
+    outline-color: #000000;
+  }
+.icon--wpp:hover {
+	background-color: #2ea44f;
+	outline-color: #2ea44f;
+}
+@keyframes shake {
+	10% {
+		transform: rotate(15deg);
+	}
+	20% {
+		transform: rotate(-15deg);
+	}
+	30% {
+		transform: rotate(15deg);
+	}
+	40% {
+		transform: rotate(-15deg);
+	}
+}
+/*------------------- FIN DEL FOOTER ---------------------------*/
 
 
 
@@ -708,7 +703,7 @@ footer {
         
         display: block;
         position: absolute;
-        top: 10px; /* Ajusta la posición vertical según tus necesidades */
+        top: 2px; /* Ajusta la posición vertical según tus necesidades */
         right: 30px; /* Ajusta la posición horizontal según tus necesidades */
         z-index: 9999; /* Asegura que el icono esté por encima de otros elementos */
       
