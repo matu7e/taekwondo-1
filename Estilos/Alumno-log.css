@@ -23,11 +23,7 @@ main{
     display: none;
   }
 
-.contenedor-menu {
-    width: 100%;
-    height: 250px;
-    margin: auto;
-}
+
 .imagen-menu {
     width: 100px;
     height: 100px;
@@ -61,28 +57,32 @@ main{
     background-color: rgba(204, 204, 204, 0.139);
     cursor: pointer;
 }
-.nav-principal ul {
-    text-align: center;
-}
+
 
 
 .nav-principal ul {
-    padding: 15px;
+    padding: 15px 25px;
     list-style: none;
     display: flex;
-    width: 50%;
     margin: auto;
     margin-top: 50px;
-    justify-content: space-between;
+    justify-content: center;
+    
+    
 }
 .nav-principal ul li {
     position: relative;
+    margin-top: 33px;
 }
 .nav-principal ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+    padding: 20px 75px;
+    font-size: 15px;
+    background-color: #00000096;
 }
-.actual {
+.fa-solid{
+    margin-right: 15px;
     color: yellow;
 }
 .dropdown .extra {
@@ -95,37 +95,12 @@ main{
     z-index: 999;
     min-width: 175px;
 }
-.dropdown-union .extra {
-    display: none;
-    position: absolute;
-    margin-left: 85px;
-    margin-top: 20px;
-    left: 0;
-    padding: 7px;
-    z-index: 999;
-    min-width: 175px;
-}
-.dropdown:hover{
-    padding: 10px;
-    padding-bottom: 20px;
-    background-color: #00000096;
-}
-.dropdown:hover .extra {
-    display: block;
-    background-color: #00000096;
-}
-.dropdown-union:hover{
-    padding: 10px;
-    padding-bottom: 20px;
-    background-color: #00000096;
-}
-.dropdown-union:hover .extra {
-    display: block;
-    background-color: #00000096;
-}
+
+
 .extra li {
     margin-bottom: 5px;
     list-style: none;
+    
 }
 .extra li a {
     color: white;
@@ -135,58 +110,29 @@ main{
 
     
 }
-.extra li a:hover {
-    color: yellow;
-    display: block;
+.nav-principal ul li a:hover {
+    color: #000000;
+    background-color: #fff700a9;
+        
 }
 
-
-#submenu
-.section-submenu{
-    width: 100%;
-    height: auto;
-    padding: 0 20px;
-    padding-top: 65px;
-}
-.submenu{
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+.nav-principal ul li a:hover .fa-solid{
+    color: #000000;
     
-    color: white;
-    text-align: center;
-    font-size: 35px;
-    margin: 0 50px;
-    margin-bottom: 0;
-    background-color: yellow;
-    
-
+        
 }
 
-.submenu ul{
-    display: flex;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}   
 
-.submenu ul li{
-    list-style: none;
-}   
 
-.submenu ul li a{
-    padding: 25px;
-}   
 /*---------------- FIN DEL MENU -------------------------*/
-main{
-    margin-top: 70px;
-}
+
 
 
 .cont-h1{
     width: 100%;
     height: auto;
     padding: 0 20px;
-    padding-top: 65px;
+    padding-top: 20px;
 }
 .titulo{
     border-top: 1px solid white;
@@ -438,19 +384,24 @@ footer {
     .menu-principal h1 {
         display: none;
     }
+
+    .nav-principal ul li a {
+        
+        background-color: #00000000;
+    }
+
     .imagen-menu {
         width: 100px;
         height: 100px;
-        margin: 0;
+        margin: auto;
         margin-bottom: 50px;
 
         
     }
     .menu-principal{
-        display: block;
-
+        display: grid;
+        justify-content: center;
         margin: auto;
-        width: 105px;
         margin-top: 50px;
     }
     .boton-menu {
@@ -460,28 +411,10 @@ footer {
     .nav-principal ul{
         display: block;
         margin-top: 40px;
+   
     }
-    .dropdown, .dropdown-union{
-        margin: 10px;
-    }
-    .dropdown:hover .extra {
-        display: none;
-        
-    }
-    .dropdown-union:hover .extra {
-        display: none;
-        
-    }
-    .dropdown:hover{
-        padding: 0;
-        padding-bottom: 0;
-        background-color: rgba(33, 32, 32, 0);
-    }
-    .dropdown-union:hover{
-        padding: 0;
-        padding-bottom: 0;
-        background-color: rgba(33, 32, 32, 0);
-    }
+    
+   
     .checkbtn{
         
         display: block;
@@ -498,6 +431,7 @@ footer {
         position: fixed;
         width: 100%;
         height: 100%;
+        z-index: 99999999999999999999;
         text-align: center;
         transition: all .5s;
         
